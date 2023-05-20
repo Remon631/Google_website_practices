@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: aliceblue;">
+    <form action="#" method="#" style="align-items: center; margin-left: 10%; margin-right: 10%;">
+        <h1 style="text-align: center;">This is a test form</h1>
+        <fieldset style="background-color: beige; align-items: center;">
+            <legend style="text-align: center;">Sign up form</legend>
+            <label for="username">Name:</label>
+            <input type="text" id="username" name="username" placeholder="Username"> <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Email"><br>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Password"><br>
+            <label for="phn">Phone:</label>
+            <select name="phone" id="phone">
+                <option value="+880">+880</option>
+                <option value="+995">+995</option>
+                <option value="+965">+965</option>
+            </select>
+            <input type="number" id="phn" name="phone" placeholder="1234567878"><br>
+            <label for="gender">Gender:</label>
+            <input type="radio" id="gender" name="gender"> Male
+            <input type="radio" id="gender" name="gender"> Female
+            <input type="radio" id="gender" name="gender"> Other
+            <br>
+            <label for="country">Country:</label>
+            <input list="cnty" id="country">
+            <datalist id="cnty">
+                <option value="Bangladesh">Bangladesh</option>
+                <option value="India">India</option>
+                <option value="Canada">Canada</option>
+                <option value="Poland">Poland</option>
+                <option value="UK">UK</option>
+            </datalist>
+            <br>
+            <label for="date">Date of Birth:</label>
+            <input type="date" id="date" name="DOB">
+            <br>
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time">
+            <br>
+            <label for="color">Color:</label>
+            <input type="color" id="color" name="color">
+            <br>
+            <label for="photo">Your picture:</label>
+            <input type="file" id="photo" name="photo">
+            <br>
+            <input type="checkbox" id="bike">
+            <label for="bike">Bike</label>
+            <input type="checkbox" id="car">
+            <label for="car">Car</label>
+            <br>
+            <textarea name="comment" id="comments" cols="30" rows="10" placeholder="Comment here..."></textarea>
+            <br>
+            <input type="submit" value="Send">
+            <input type="reset" value="Reset">
+        </fieldset>
+    </form>
+</body>
+</html>
